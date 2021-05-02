@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Đặc tính">
+            <menu>
+                <item
+                    android:title="Màn hình chính"
+                    android:icon="@drawable/ic_action_home"
+                    android:id="@+id/nav_home">
+                </item>
+                <item
+                    android:id="@+id/nav_location"
+                    android:icon="@drawable/ic_action_location"
+                    android:title="@string/menu_location" />
+                <item
+                    android:id="@+id/nav_setting"
+                    android:icon="@drawable/ic_action_setting"
+                    android:title="@string/menu_setting" />
+                <item
+                    android:id="@+id/nav_notify"
+                    android:icon="@drawable/ic_action_notify"
+                    android:title="@string/menu_notify" />
+            </menu>
+        </item>
+        <item android:title="Chung">
+            <menu>
+                <item
+                    android:id="@+id/nav_language"
+                    android:icon="@drawable/ic_action_language"
+                    android:title="@string/menu_language">
+                </item>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_action_share"
+                    android:title="@string/menu_share">
+                </item>
+                <item
+                    android:id="@+id/nav_evaluate"
+                    android:icon="@drawable/ic_action_evaluate"
+                    android:title="@string/menu_evaluate">
+                </item>
+
+            </menu>
+        </item>
+    </group>
+</menu>

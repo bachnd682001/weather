@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ui.Notify.NotifyFragment">
+
+
+    <Button
+        android:id="@+id/btn_luu"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/ic_action_add"></Button>
+
+    <TextView
+        android:layout_marginTop="200dp"
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Giờ"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="219dp">
+
+    </TextView>
+
+</LinearLayout>
